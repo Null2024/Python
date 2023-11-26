@@ -1,6 +1,3 @@
-Name = "Ranjbar Hosseini"
-Counter = 0
-for Cou in Name:
-    if("s"==Cou):
-        Counter+=1
-print(Counter)
+openfile = open("C:\Users\Mr.Hosseini\Desktop\7\file.txt")
+readl = openfile.readline()
+print(readl)

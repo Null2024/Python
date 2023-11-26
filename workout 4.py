@@ -1,11 +1,5 @@
-def F(num):
-    sum = (2**num)+(2*num)
-    return sum
-def Fp(num):
-    sum = (2*num)+2
-    return sum
-def Sum(num):
-    sum = F(num)-(F(num)/Fp(num))
-    return sum
-
-print (Sum(8))
+list1=["mmd","rnj",12]
+i = -1
+for x in list1[i]:
+    print(list1[i])
+    i+=1

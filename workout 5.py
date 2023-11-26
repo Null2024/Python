@@ -1,6 +1,4 @@
-Name = "Ranjbar Hosseini"
-Txt = Name[::-1]
-if (Name == Txt):
-    print ("Yes")
-else:
-    print("No")
+list1=["mmd","rnj",12]
+y = list1[::-1]
+for x in y:
+    print(y)

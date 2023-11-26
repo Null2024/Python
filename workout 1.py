@@ -1,5 +1,8 @@
-Text = ""
-Name = "Ranjbar Hosseini"
-for Cou in Name:
-    Text = Cou + Text
-print(Text)
+txt = "a"
+txt2 = "b"
+print(txt>=txt2)
+print(txt==txt2)
+print(txt!=txt2)
+print(txt>txt2)
+print(txt<txt2)
+print(txt<=txt2)

@@ -1,10 +1,9 @@
-Name = "Ranjbar Hosseini"
-txt = ""
-txt1= ""
-for Cou in Name:
-    if (Cou.islower()):
-        txt = txt+Cou
-    else:
-        txt1 = txt1 +Cou
+list1=["mmd","rn",]
+y = list1[::-1]
+for x in y:
+    for k in list1:
+        if(x == k):
+            txt="tru"
+        else:
+            txt = "fals"
 print(txt)
-print(txt1)
